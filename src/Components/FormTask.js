@@ -24,7 +24,6 @@ const FormTask = ({handleTaskCreation}) => {
       setSelectedDate(null);
       setTaskTitle("");
     }
-
   }
 
   return (
@@ -108,6 +107,5 @@ const styles = StyleSheet.create({
     color: "white",
   }
 });
-
 
 export default FormTask;
